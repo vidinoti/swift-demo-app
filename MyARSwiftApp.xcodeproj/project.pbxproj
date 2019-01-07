@@ -31,6 +31,7 @@
 		04888A3721CD4ECB007D9A2E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04888A2121CD4ECB007D9A2E /* CoreLocation.framework */; };
 		04888A3821CD4ECB007D9A2E /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04888A2221CD4ECB007D9A2E /* AVKit.framework */; };
 		04888A3921CD4ECB007D9A2E /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04888A2321CD4ECB007D9A2E /* libiconv.tbd */; };
+		04DBAD0F21E391EF00E26593 /* VDARLocalizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DBAD0E21E391EF00E26593 /* VDARLocalizationManager.m */; };
 		04DCDCC221CCF4EE00A34327 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCDCC121CCF4EE00A34327 /* AppDelegate.swift */; };
 		04DCDCC421CCF4EE00A34327 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCDCC321CCF4EE00A34327 /* ViewController.swift */; };
 		04DCDCC721CCF4EE00A34327 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DCDCC521CCF4EE00A34327 /* Main.storyboard */; };
@@ -64,6 +65,8 @@
 		04888A2221CD4ECB007D9A2E /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		04888A2321CD4ECB007D9A2E /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		04888A3A21CD50B2007D9A2E /* MyARSwiftApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyARSwiftApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		04DBAD0E21E391EF00E26593 /* VDARLocalizationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VDARLocalizationManager.m; sourceTree = "<group>"; };
+		04DBAD1021E3923400E26593 /* VDARLocalizationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VDARLocalizationManager.h; sourceTree = "<group>"; };
 		04DCDCBE21CCF4EE00A34327 /* MyARSwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyARSwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DCDCC121CCF4EE00A34327 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04DCDCC321CCF4EE00A34327 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +138,8 @@
 				04DCDCCA21CCF4EF00A34327 /* LaunchScreen.storyboard */,
 				04DCDCCD21CCF4EF00A34327 /* Info.plist */,
 				0409C29C21D1343E00CB8542 /* VidinotiService.swift */,
+				04DBAD0E21E391EF00E26593 /* VDARLocalizationManager.m */,
+				04DBAD1021E3923400E26593 /* VDARLocalizationManager.h */,
 			);
 			path = MyARSwiftApp;
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04DCDCC421CCF4EE00A34327 /* ViewController.swift in Sources */,
+				04DBAD0F21E391EF00E26593 /* VDARLocalizationManager.m in Sources */,
 				0409C29D21D1343E00CB8542 /* VidinotiService.swift in Sources */,
 				04DCDCC221CCF4EE00A34327 /* AppDelegate.swift in Sources */,
 			);
