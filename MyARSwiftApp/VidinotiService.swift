@@ -29,7 +29,7 @@ class VidinotiService {
             tagName = "lang_en"
         }
         print("Synchronizing with tag name: \(tagName)")
-        let priors: [Any] = [VDARTagPrior(tagName: tagName)]
+        let priors: [VDARPrior] = [VDARTagPrior(tagName: tagName)]
         VDARSDKController.sharedInstance()?.afterLoadingQueue.addOperation {
             DispatchQueue.main.async {
                 VDARRemoteController.sharedInstance()?.syncRemoteModelsAsynchronously(withPriors: priors, withCompletionBlock: {result, error in
