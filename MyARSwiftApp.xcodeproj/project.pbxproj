@@ -32,6 +32,8 @@
 		04888A3721CD4ECB007D9A2E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04888A2121CD4ECB007D9A2E /* CoreLocation.framework */; };
 		04888A3821CD4ECB007D9A2E /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04888A2221CD4ECB007D9A2E /* AVKit.framework */; };
 		04888A3921CD4ECB007D9A2E /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04888A2321CD4ECB007D9A2E /* libiconv.tbd */; };
+		04A3B9B8266E24E400A5BC78 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A3B9B7266E24E400A5BC78 /* ARKit.framework */; };
+		04A3B9BA266E24EB00A5BC78 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A3B9B9266E24EB00A5BC78 /* MetalKit.framework */; };
 		04DBAD0F21E391EF00E26593 /* VDARLocalizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DBAD0E21E391EF00E26593 /* VDARLocalizationManager.m */; };
 		04DCDCC221CCF4EE00A34327 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCDCC121CCF4EE00A34327 /* AppDelegate.swift */; };
 		04DCDCC421CCF4EE00A34327 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCDCC321CCF4EE00A34327 /* ViewController.swift */; };
@@ -67,6 +69,8 @@
 		04888A2221CD4ECB007D9A2E /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		04888A2321CD4ECB007D9A2E /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		04888A3A21CD50B2007D9A2E /* MyARSwiftApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyARSwiftApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		04A3B9B7266E24E400A5BC78 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		04A3B9B9266E24EB00A5BC78 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
 		04DBAD0E21E391EF00E26593 /* VDARLocalizationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VDARLocalizationManager.m; sourceTree = "<group>"; };
 		04DBAD1021E3923400E26593 /* VDARLocalizationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VDARLocalizationManager.h; sourceTree = "<group>"; };
 		04DCDCBE21CCF4EE00A34327 /* MyARSwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyARSwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +96,7 @@
 				04888A3021CD4ECB007D9A2E /* CoreGraphics.framework in Frameworks */,
 				04888A3721CD4ECB007D9A2E /* CoreLocation.framework in Frameworks */,
 				04888A2B21CD4ECB007D9A2E /* CoreMedia.framework in Frameworks */,
+				04A3B9BA266E24EB00A5BC78 /* MetalKit.framework in Frameworks */,
 				04888A2821CD4ECB007D9A2E /* CoreMotion.framework in Frameworks */,
 				04888A3521CD4ECB007D9A2E /* CoreVideo.framework in Frameworks */,
 				04888A2721CD4ECB007D9A2E /* ImageIO.framework in Frameworks */,
@@ -106,6 +111,7 @@
 				04888A2621CD4ECB007D9A2E /* QuartzCore.framework in Frameworks */,
 				04888A2A21CD4ECB007D9A2E /* Security.framework in Frameworks */,
 				04888A2E21CD4ECB007D9A2E /* Social.framework in Frameworks */,
+				04A3B9B8266E24E400A5BC78 /* ARKit.framework in Frameworks */,
 				04888A0D21CD4DF7007D9A2E /* VDARSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +156,8 @@
 		04DCDCD321CCF59200A34327 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04A3B9B9266E24EB00A5BC78 /* MetalKit.framework */,
+				04A3B9B7266E24E400A5BC78 /* ARKit.framework */,
 				044D11CD2292C60D005811B9 /* UserNotifications.framework */,
 				04888A1E21CD4ECB007D9A2E /* Accelerate.framework */,
 				04888A1C21CD4ECB007D9A2E /* AudioToolbox.framework */,
