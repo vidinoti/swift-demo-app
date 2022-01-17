@@ -34,6 +34,7 @@
 		04888A3921CD4ECB007D9A2E /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04888A2321CD4ECB007D9A2E /* libiconv.tbd */; };
 		04A3B9B8266E24E400A5BC78 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A3B9B7266E24E400A5BC78 /* ARKit.framework */; };
 		04A3B9BA266E24EB00A5BC78 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A3B9B9266E24EB00A5BC78 /* MetalKit.framework */; };
+		04C062E527957E3D00B4BAE5 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C062E427957E3D00B4BAE5 /* QuickLook.framework */; };
 		04DBAD0F21E391EF00E26593 /* VDARLocalizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DBAD0E21E391EF00E26593 /* VDARLocalizationManager.m */; };
 		04DCDCC221CCF4EE00A34327 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCDCC121CCF4EE00A34327 /* AppDelegate.swift */; };
 		04DCDCC421CCF4EE00A34327 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCDCC321CCF4EE00A34327 /* ViewController.swift */; };
@@ -71,6 +72,7 @@
 		04888A3A21CD50B2007D9A2E /* MyARSwiftApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyARSwiftApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		04A3B9B7266E24E400A5BC78 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
 		04A3B9B9266E24EB00A5BC78 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		04C062E427957E3D00B4BAE5 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		04DBAD0E21E391EF00E26593 /* VDARLocalizationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VDARLocalizationManager.m; sourceTree = "<group>"; };
 		04DBAD1021E3923400E26593 /* VDARLocalizationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VDARLocalizationManager.h; sourceTree = "<group>"; };
 		04DCDCBE21CCF4EE00A34327 /* MyARSwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyARSwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +106,7 @@
 				04888A2C21CD4ECB007D9A2E /* libc++.tbd in Frameworks */,
 				04888A3921CD4ECB007D9A2E /* libiconv.tbd in Frameworks */,
 				04888A2D21CD4ECB007D9A2E /* libicucore.tbd in Frameworks */,
+				04C062E527957E3D00B4BAE5 /* QuickLook.framework in Frameworks */,
 				04888A2921CD4ECB007D9A2E /* libz.tbd in Frameworks */,
 				04888A2F21CD4ECB007D9A2E /* MediaPlayer.framework in Frameworks */,
 				04888A3121CD4ECB007D9A2E /* MessageUI.framework in Frameworks */,
@@ -156,6 +159,7 @@
 		04DCDCD321CCF59200A34327 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04C062E427957E3D00B4BAE5 /* QuickLook.framework */,
 				04A3B9B9266E24EB00A5BC78 /* MetalKit.framework */,
 				04A3B9B7266E24E400A5BC78 /* ARKit.framework */,
 				044D11CD2292C60D005811B9 /* UserNotifications.framework */,
