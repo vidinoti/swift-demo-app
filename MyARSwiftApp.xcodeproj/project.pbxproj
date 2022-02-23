@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0409C29D21D1343E00CB8542 /* VidinotiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409C29C21D1343E00CB8542 /* VidinotiService.swift */; };
+		042A637427BFE66200D551C5 /* VDARSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042A637327BFE66100D551C5 /* VDARSDK.xcframework */; };
 		044D11CE2292C60E005811B9 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044D11CD2292C60D005811B9 /* UserNotifications.framework */; };
-		04888A0D21CD4DF7007D9A2E /* VDARSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04888A0C21CD4DF7007D9A2E /* VDARSDK.framework */; };
 		04888A2421CD4ECB007D9A2E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04888A0E21CD4EC9007D9A2E /* OpenGLES.framework */; };
 		04888A2521CD4ECB007D9A2E /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04888A0F21CD4ECA007D9A2E /* JavaScriptCore.framework */; };
 		04888A2621CD4ECB007D9A2E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04888A1021CD4ECA007D9A2E /* QuartzCore.framework */; };
@@ -45,8 +45,8 @@
 
 /* Begin PBXFileReference section */
 		0409C29C21D1343E00CB8542 /* VidinotiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidinotiService.swift; sourceTree = "<group>"; };
+		042A637327BFE66100D551C5 /* VDARSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VDARSDK.xcframework; path = Frameworks/VDARSDK.xcframework; sourceTree = "<group>"; };
 		044D11CD2292C60D005811B9 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
-		04888A0C21CD4DF7007D9A2E /* VDARSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VDARSDK.framework; path = Frameworks/VDARSDK.framework; sourceTree = "<group>"; };
 		04888A0E21CD4EC9007D9A2E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		04888A0F21CD4ECA007D9A2E /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		04888A1021CD4ECA007D9A2E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -106,6 +106,7 @@
 				04888A2C21CD4ECB007D9A2E /* libc++.tbd in Frameworks */,
 				04888A3921CD4ECB007D9A2E /* libiconv.tbd in Frameworks */,
 				04888A2D21CD4ECB007D9A2E /* libicucore.tbd in Frameworks */,
+				042A637427BFE66200D551C5 /* VDARSDK.xcframework in Frameworks */,
 				04C062E527957E3D00B4BAE5 /* QuickLook.framework in Frameworks */,
 				04888A2921CD4ECB007D9A2E /* libz.tbd in Frameworks */,
 				04888A2F21CD4ECB007D9A2E /* MediaPlayer.framework in Frameworks */,
@@ -115,7 +116,6 @@
 				04888A2A21CD4ECB007D9A2E /* Security.framework in Frameworks */,
 				04888A2E21CD4ECB007D9A2E /* Social.framework in Frameworks */,
 				04A3B9B8266E24E400A5BC78 /* ARKit.framework in Frameworks */,
-				04888A0D21CD4DF7007D9A2E /* VDARSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +159,7 @@
 		04DCDCD321CCF59200A34327 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				042A637327BFE66100D551C5 /* VDARSDK.xcframework */,
 				04C062E427957E3D00B4BAE5 /* QuickLook.framework */,
 				04A3B9B9266E24EB00A5BC78 /* MetalKit.framework */,
 				04A3B9B7266E24E400A5BC78 /* ARKit.framework */,
@@ -185,7 +186,6 @@
 				04888A1021CD4ECA007D9A2E /* QuartzCore.framework */,
 				04888A1421CD4ECA007D9A2E /* Security.framework */,
 				04888A1821CD4ECA007D9A2E /* Social.framework */,
-				04888A0C21CD4DF7007D9A2E /* VDARSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

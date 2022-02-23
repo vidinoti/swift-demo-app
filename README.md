@@ -6,6 +6,6 @@ For more documentation, follow the guide there: <https://vidinoti.github.io/docu
 
 ## How to get started
 
-* Download the `VDARSDK.framework` file from [V-Director](https://armanager.vidinoti.com)
+* Download the `VDARSDK.xcframework` file from [V-Director](https://armanager.vidinoti.com)
 * Move it into the `Frameworks` folder.
 * Open the Xcode project `MyARSwiftApp.xcodeproj`

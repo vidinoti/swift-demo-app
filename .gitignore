@@ -1,5 +1,6 @@
 .DS_Store
 /Frameworks/VDARSDK.framework
+/Frameworks/VDARSDK.xcframework
 
 # Xcode / github gitignore
 #
